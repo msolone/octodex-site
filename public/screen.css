@@ -7,3 +7,75 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+#header {
+  padding: 15px 20px;
+  background: #f3f3f3;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+#nav-list {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 3.5em;
+  padding: 30px;
+  font-weight: bold;
+}
+
+#logo {
+  height: 100px;
+  padding: 1.5em;
+}
+
+.chars {
+
+
+}
+
+.char {
+  max-width: 40em;
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  border-bottom: 0.25em solid #CACACA;
+}
+
+
+.char-info {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #CACACA;
+
+}
+
+.char-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.char-img {
+  width: 100%;
+  border: 0.25em solid #CACACA
+}
+
+.char li img {
+  max-width: 2em;
+}
+
+#li-padding {
+  padding: 0 2em 0 2em;
+}
